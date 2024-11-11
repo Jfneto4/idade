@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/22/10/15/bottles-3623317_640.jpg);
+}
+
+
+.bemvindo{
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+
+.box2{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background-color: #0000ff48;
+   color: #ffffff;
+   border-radius: 12px;
+   border: #ffffff;
+   height: 300px;
+   margin-left: 25% ;
+   margin-right: 25%;
+   margin-top: 90px;
+    
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+   
+  
+   
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+}
+
+button{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0px 10px;
+    font-size: 20px;
+    margin: 15px;
+}

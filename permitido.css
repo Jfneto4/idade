@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: start;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.galeria{
+    margin: 2em;
+    display: flex;
+    height: 20em;
+    gap: 0.1em;
+}
+
+.galeria div{
+    flex: 1;
+    background-size: cover;
+    background-position: center center;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+galeria div:hover{
+    flex: 3;
+}
+
+.galeria:hover div:not(:hover){
+    filter: grayscale(100%);
+    transition: 0.5s;
+    transform: scale(1.10);
+   
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrinkLab</title>
+</head>
+
+<header class="header">
+DrinkLab
+
+</header>
+
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h2>Você deve ser maior de idade para comprar e consumir álcool para entrar nesse site </h2>
+        </div>
+        <div class="box2">
+            <p class="bemvindo">Bem Vindo!!!</p>
+            <h1>Validação de Idade</h1>
+            <p>Insira a sua idade:</p>
+
+            <input type="number" name="" id="idadeInput">
+            <button onclick="verificarIdade()">Verificar</button>
+        </div>
+    </div>
+
+
+    <script>
+        function verificarIdade() {
+            const idade = parseInt(document.getElementById("idadeInput").value);
+
+            if (idade >= 18) {
+
+                window.location.href = "permitido.html";
+
+            }
+            else {
+                window.location.href = "npermitido.html";
+            }
+
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
